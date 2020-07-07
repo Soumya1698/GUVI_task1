@@ -21,5 +21,24 @@ task2:
 
 task3:
 
-1. 
+1. const readline = require('readline');
+const inp = readline.createInterface({
+  input: process.stdin
+});
+const userInput = [];
+  inp.on("line", (data) => {
+  userInput.push(data);
+});
+inp.on("close", () => {
+ var totalNumberofRows = 7;
+    var output = '';
+    for (var i = 1; i <= totalNumberofRows; i++) {
+        for (var j = 1; j <= i; j++) {
+            output += "#" + '  ';
+        }
+        console.log(output);
+        output = '';
+    }
+})
 
+2.
