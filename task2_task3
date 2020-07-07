@@ -1,0 +1,25 @@
+task2:
+
+1. var x; console.log(x*x);
+2. var x=1,y=2; x=x+y;y=x-y;x=x-y;console.log(x,y); //o/p:2 1
+3.var x,y,z; console.log(x+y+z);
+4.var x,y; y=(x*9/5)+32;console.log(x+"C",y+"F");
+9.var x,y,z; z=Math.pow(x,y); console.log(z);
+10. var p,t,r,SI; SI=p*t*r/100; console.log(SI);
+11. var x,y; y=Math.sqrt(3)x*x/4; console.log(y);
+12.var A,b,h; A=b*h/2; console.log(A);
+13.var V,r; V=4*22*r*r/3*7; console.log(V);
+14. var B,h; console.log("area"+B*h);
+19. for(var i=0;i<5;i++)
+    {
+      for(var j=i;j<5;j++)
+      console.log("*");
+    }
+20.console.log(var "rate_day=" +24*100*30);
+21. var marksScored=9+9+9+8+10/5; console.log("cgpa:" + marksScored);
+
+
+task3:
+
+1. 
+
